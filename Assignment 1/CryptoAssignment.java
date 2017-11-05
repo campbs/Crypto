@@ -153,7 +153,7 @@ public class CryptoAssignment{
         fw.write("\nAESEncrypted: \n" + AESEncryptHex);
         fw.write("\nPassword encrypted with RSA: \n" + passwordEncryptedWithRSAInHex);
         fw.write("\nSalt: \n"+ saltToHex);
-        fw.write("\nIV: \n"+ ivInHex);
+        fw.write("\nIV: "+ ivInHex);
 
         fw.close();
 
